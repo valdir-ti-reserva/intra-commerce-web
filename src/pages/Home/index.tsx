@@ -3,6 +3,7 @@ import Announcement from '../../components/Announcement'
 import Slider from '../../components/Slider'
 import Category from '../../components/Category'
 import Product from '../../components/Product'
+import Newsletter from '../../components/Newsletter'
 
 import './styles.css';
 
@@ -14,6 +15,7 @@ function App() {
         <Slider />
         <Category />
         <Product />
+        <Newsletter />
     </div>
   );
 }

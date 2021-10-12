@@ -24,7 +24,6 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: '#e33eee';
   position: relative;
   
   &:hover ${Info}{
@@ -58,7 +57,7 @@ export const Icon = styled.div`
   transition: all 0.5s ease;
 
   &:hover { 
-    background-color: '#e9f5f5';
+    background-color: #e9f5f5;
     transform: scale(1.1);
   }
 `;
