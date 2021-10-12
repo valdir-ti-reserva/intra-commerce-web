@@ -4,6 +4,7 @@ import Slider from '../../components/Slider'
 import Category from '../../components/Category'
 import Product from '../../components/Product'
 import Newsletter from '../../components/Newsletter'
+import Footer from '../../components/Footer'
 
 import './styles.css';
 
@@ -16,6 +17,7 @@ function App() {
         <Category />
         <Product />
         <Newsletter />
+        <Footer />
     </div>
   );
 }
